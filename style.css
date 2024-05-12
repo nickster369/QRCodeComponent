@@ -1,10 +1,7 @@
 html, body, .bodyContainer {
   margin: 0;
   padding: 0;
-}
-
-html {
-  font-family: arial, sans-serif;
+  font-family: Outfit, sans-serif;
 }
 
 body {
@@ -12,30 +9,54 @@ body {
   justify-content: center;
   display: flex;
   align-items: center;
-  background: red;
+  background: hsl(212, 45%, 89%);
 }
 
 .bodyContainer {
-  width: 375px;
-  height: 667px;
-  align-content: center;
-  background-color: blue;
+  width: 320px;
+  height: 497px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
 }
 
 .imageContainer {
-  width: 100%;
-  height: auto;
+  width: 288px;
+  height: 288px;
+  margin: 16px auto 24px;
 }
 
 .image {
-  position: fixed;
-  top: 0;
-  left: 0;
-
   background-image: url("./images/image-qr-code.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  height: 288px;
+  width: 288px;
+  border-radius: 10px;
+}
 
+.informationContainer {
+  width: 288px;
+  height: 129px;
+  margin: 24px auto 40px;
+}
 
+h1 {
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  color: hsl(218, 44%, 22%);
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.01em;
+  width: 256px;
+  height: 57px;
+  color: hsl(220, 15%, 55%);
+  margin: 16px auto 0;
 }
